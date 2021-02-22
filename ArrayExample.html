@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Arrays</h2>
+
+<p id="game_objects"></p>
+
+<script>
+var npc = ["Grunt", "Soldier", "Boss", "Goal"];
+
+var output = "<ul>";
+for (var i = 0; i < npc.length; i++) {
+  output += "<li>" + npc[i] + "</li>";
+}
+output += "</ul>";
+
+document.getElementById("game_objects").innerHTML = output;
+</script>
+
+</body>
+</html>

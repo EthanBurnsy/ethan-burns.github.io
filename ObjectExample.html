@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Class Method</h2>
+
+<p id="player_status"></p>
+
+<script>
+class GameObject {
+  constructor(name) {
+    this.name = name;
+    this.health = 50;
+  }
+  setHealth(x) {
+  	this.health += x;
+  }
+  getHealth() {
+    return this.health;
+  }
+}
+
+let game_object = new GameObject("Player");
+
+game_object.setHealth(10);
+
+document.getElementById("player_status").innerHTML =
+"Players Health " + game_object.getHealth();
+</script>
+
+</body>
+</html>
