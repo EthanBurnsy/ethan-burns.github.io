@@ -1,5 +1,10 @@
 /* Button Styling */
-
+@media only screen and (max-width: 600px) {
+  #game{
+      width:300px;
+      height:300px;
+  }
+}
 .button {
   background-color: #000000;
   border: none;
