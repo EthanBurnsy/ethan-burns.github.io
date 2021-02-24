@@ -1,11 +1,10 @@
 var cacheName = 'Ethan-Burns-PWA';
 var filesToCache = [
-  './',
-  './GameLoop.html',
-  './ObjectExample.html',
-  './ArrayExample.html',
-  './css/pushSwitch.css',
-  './js/script.js'
+  '/GameLoop.html',
+  '/ObjectExample.html',
+  '/ArrayExample.html',
+  '/css/pushSwitch.css',
+  '/js/script.js'
 ];
 
 /* Cache contents when Offline See Cache */
