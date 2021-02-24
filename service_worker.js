@@ -1,4 +1,4 @@
-var cacheName = 'muddygames-pwa';
+var cacheName = 'Ethan-Burns-PWA';
 var filesToCache = [
   './',
   './GameLoop.html',

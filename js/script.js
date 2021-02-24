@@ -117,7 +117,7 @@ function update() {
             // console.log("Health :" + gameobjects[i].health);
 
         } else {
-            console.log(gameobjects[i].name + " at X: " + gameobjects[i].x + "  Y: " + gameobjects[i].y + " looks like its not alive :'(");
+           // console.log(gameobjects[i].name + " at X: " + gameobjects[i].x + "  Y: " + gameobjects[i].y + " looks like its not alive :'(");
         }
     }
     switch (direction){
